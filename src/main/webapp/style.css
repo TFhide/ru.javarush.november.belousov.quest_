@@ -1,0 +1,115 @@
+    :root {
+    --color1: #664d03;
+}
+
+header, footer {
+    background: url("image/sands.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 400px;
+    padding: 50px 0;
+}
+.section-link, .description-link, .statistic-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid var(--color1);
+    border-radius: 5px;
+    width: 250px;
+    height: 80px;
+    margin: 0 auto;
+    text-decoration: none;
+    background: #c19e67;
+    background: -moz-linear-gradient(to bottom,  #c19e67 0%, #e9d4b3 100%);
+    background: -webkit-linear-gradient(to bottom,  #c19e67 0%,#e9d4b3 100%);
+    background: linear-gradient(to bottom,  #c19e67 0%,#e9d4b3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c19e67', endColorstr='#e9d4b3',GradientType=0 );
+    color: var(--color1);
+}
+
+.answer-link2, .start-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid var(--color1);
+    border-radius: 5px;
+    width: 150px;
+    height: 60px;
+    margin: 0 auto;
+    text-decoration: none;
+    background: #c19e67;
+    background: -moz-linear-gradient(to bottom,  #c19e67 0%, #e9d4b3 100%);
+    background: -webkit-linear-gradient(to bottom,  #c19e67 0%,#e9d4b3 100%);
+    background: linear-gradient(to bottom,  #c19e67 0%,#e9d4b3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c19e67', endColorstr='#e9d4b3',GradientType=0 );
+    color: var(--color1);
+}
+
+.general-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quests-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background-size: contain;
+    font-weight: bold;
+}
+.quests-icon:hover {
+    background-color: #c19e67;
+}
+
+.icon-left {
+    display: block;
+    float: left;
+    margin-left: 80px;
+    width: 420px;
+    height: 330px;
+}
+
+.icon-right {
+    display: block;
+    float: right;
+    margin-right: 80px;
+    width: 420px;
+    height: 330px;
+}
+
+td, th {
+    border: 3px solid var(--color1);
+}
+
+#quantity, #win, #lose {
+    width: 50px;
+}
+
+#quantityH, #winH, #loseH {
+    height: 50px;
+}
+
+.start-link {
+    margin-top: 20px;
+    color: var(--color1);
+}
+
+.answer-link {
+    color: var(--color1);
+}
+
+.about {
+    cursor: pointer;
+    transition: 0.2s ease;
+    background: #f3e2c7;
+    background: -moz-linear-gradient(45deg, #f3e2c7 0%, #c19e67 50%, #b68d4c 51%, #e9d4b3 100%);
+    background: -webkit-linear-gradient(45deg, #f3e2c7 0%, #c19e67 50%, #b68d4c 51%, #e9d4b3 100%);
+    background: linear-gradient(45deg, #f3e2c7 0%, #c19e67 50%, #b68d4c 51%, #e9d4b3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3e2c7', endColorstr='#e9d4b3', GradientType=1);
+}
+
